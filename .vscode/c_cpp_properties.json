@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "AVR-Programming-Library/",
+                "C:/Program Files (x86)/avr8-gnu-toolchain-win32_x86/avr/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files (x86)/avr8-gnu-toolchain-win32_x86/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x86",
+            "compilerArgs": [
+                "-mmcu=atmega168"
+            ]
+        }
+    ],
+    "version": 4
+}
